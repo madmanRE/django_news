@@ -15,7 +15,12 @@
     <h2><a href="{% url 'blog:post_list' %}" style="color:black">Django News</a></h2>
     <p>
         Это мой блог, посвященный программированию.
-        Уже было написано {% total_posts %} статей!.
+        Уже было написано {% total_posts %} статей!
+    </p>
+    <p>
+        <a href="{% url 'blog:post_feed' %}">
+            Подписаться на RSS ленту
+        </a>
     </p>
     <h3>Последние записи</h3>
     {% show_latest_posts 3 %}
