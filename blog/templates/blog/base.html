@@ -11,6 +11,14 @@
     {% block content %}
     {% endblock %}
 </div>
+<div>
+    <a href="/">Главная</a>
+    <a href="{% url 'blog:post_list' %}">Список записей</a>
+    <a href="{% url 'blog:post_search' %}">Поиск по сайту</a>
+    {% if request.user.is_superuser or request.user.is_staff %}
+    <a href="/admin/" style="color:red">Админка</a>
+    {% endif %}
+</div>
 <div id="sidebar">
     <h2><a href="{% url 'blog:post_list' %}" style="color:black">Django News</a></h2>
     <p>

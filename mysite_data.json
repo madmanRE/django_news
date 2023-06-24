@@ -1,0 +1,911 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-06-18T19:35:02.131Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Какой язык программирования учить?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-06-18T19:55:45.786Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Что же выбрать, PHP или Python?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-06-19T18:21:03.436Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-06-19T18:21:03.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Ine more post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-06-19T18:21:09.457Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Какой язык программирования учить?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-06-19T18:21:13.702Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Какой язык программирования учить?",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-06-19T18:21:17.933Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Что же выбрать, PHP или Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-06-19T18:46:49.337Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Какой язык программирования учить?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-06-19T18:47:06.982Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Какой язык программирования учить?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-06-20T19:31:05.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Сложности освоения C++",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-06-20T19:31:40.872Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Java или Python выбор неочевиден",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-06-21T17:13:55.068Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Комментарий Васян для записи Java или Python выбор неочевиден",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-06-21T20:30:29.653Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "programming",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"\\u041a\\u0430\\u043a\\u043e\\u0439 \\u044f\\u0437\\u044b\\u043a \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u0443\\u0447\\u0438\\u0442\\u044c? tagged with programming\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-06-22T15:16:47.110Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Что же выбрать, PHP или Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-06-22T15:17:54.860Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Java или Python выбор неочевиден",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-06-22T19:23:21.793Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "А что про Markdown?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-06-22T19:41:08.867Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Что же выбрать, PHP или Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-06-22T19:42:10.245Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Что же выбрать, PHP или Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$5lzs602m1lFJMIJHRuzmfd$I0yYUO0ddkm1KkCH1S5KkuhnTnbspJ5C/fDVnI1CMqU=",
+    "last_login": "2023-06-18T19:29:31.681Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "djangowebm@ster.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-06-18T19:27:17.647Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ipyiu5w9cnkc4esc1gkw5692lhdbttkm",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8ChlcuvcbyMAMUjWQlHZl_Hdt0oVu7znnvkTEba1xG7zEmcRZaHH63RLmB7cd0B3brcvc27rMSe6KPOiQ1078vBzu30HFUb-1Iq-1YadcwmImg1lbKBSYTdbOm0lDcGjBAZZAxoPyDFYpVQolX0C8P87NN28:1qAy5b:CcgNAYvvFHLDL1foxE8OzPZLh7sGgQiBahQGlS_8Kzc",
+    "expire_date": "2023-07-02T19:29:31.684Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Какой язык программирования учить?",
+    "slug": "kakoj-yazyk-programmirovaniya-uchit",
+    "author": 1,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta pharetra odio quis hendrerit. Maecenas consectetur eget ipsum vel faucibus. In hac habitasse platea dictumst. Nullam ligula lorem, facilisis eu augue quis, sollicitudin rhoncus mi. Donec maximus nisi ac nisl pellentesque lobortis. Curabitur id purus velit. Donec placerat vitae quam et sodales. Nunc lacus nulla, consequat quis orci eu, consequat hendrerit est. Nunc accumsan ipsum vel sapien imperdiet suscipit. Phasellus metus orci, dapibus eget rhoncus non, efficitur id lectus. In viverra, nisl sit amet cursus commodo, augue velit facilisis mi, nec semper neque felis non odio. Sed hendrerit, magna sit amet pharetra pharetra, tellus mi malesuada magna, vel elementum orci sem quis eros. Nulla quis est tempor, gravida odio vel, luctus eros. Fusce a egestas dolor. Aenean quis risus nunc. Curabitur aliquet purus semper nulla mollis, vitae tincidunt arcu dignissim.\r\n\r\nNullam congue nulla eget dui dictum, a varius ante fermentum. Proin iaculis malesuada erat, id accumsan risus. Suspendisse vehicula metus ac metus posuere, ac gravida nisi fringilla. Duis faucibus ligula vel mauris tristique, et porta enim ullamcorper. Nullam vitae tincidunt sapien. Maecenas sit amet lacus convallis, pellentesque dolor non, malesuada sem. Curabitur lectus felis, hendrerit at volutpat in, accumsan ac mauris. Integer scelerisque gravida varius. Nunc at tincidunt erat, eu mollis risus. Proin ligula risus, tincidunt interdum ullamcorper rutrum, tempor vitae purus. Phasellus id eros mauris. Nam neque orci, convallis id massa ut, rhoncus rutrum ante. Aenean aliquet sem ac iaculis lobortis. Nunc pulvinar eu nulla sit amet elementum. Vestibulum blandit posuere metus in iaculis.\r\n\r\nNulla facilisi. Duis scelerisque, risus cursus aliquet sodales, nulla tellus euismod velit, sed pretium turpis lectus pretium elit. Proin elementum, neque sed volutpat luctus, est libero mollis nunc, at euismod urna leo in lectus. Proin hendrerit nulla orci, eget cursus lectus venenatis in. Sed malesuada lectus maximus dignissim fringilla. Sed convallis, ligula eu hendrerit suscipit, leo purus porttitor arcu, at posuere enim odio vel massa. Duis facilisis malesuada nibh, vitae scelerisque sapien laoreet et. Phasellus posuere bibendum eros dapibus auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum magna sit amet nunc tincidunt placerat. In hac habitasse platea dictumst.\r\n\r\nNunc eget dui non ligula pretium condimentum ut eu massa. Praesent lorem enim, mattis vitae ex at, accumsan dignissim erat. Donec lobortis interdum elit, in sagittis magna egestas a. Curabitur a sollicitudin metus, id egestas neque. In pulvinar vel sem fringilla pharetra. Aliquam ut ultrices nibh. Cras metus libero, tincidunt eu nunc at, aliquet rhoncus arcu. Duis posuere nulla lectus, non venenatis nisi sodales ac.\r\n\r\nSed at urna id metus malesuada dictum. Proin eget fermentum libero. Nunc erat sem, aliquam vitae ultricies sed, accumsan eget nunc. Aenean mauris tellus, tincidunt et erat in, pellentesque molestie metus. Donec ultricies elementum dictum. Integer justo lacus, faucibus nec nibh et, venenatis fringilla velit. Fusce ultrices, erat id venenatis ultrices, magna nibh condimentum mi, vel blandit orci sem at justo. Donec in finibus dolor, vitae fringilla lectus. Aliquam at nisl at lorem imperdiet gravida. Donec vel auctor erat. Nulla varius arcu in dapibus tristique. Duis vitae tincidunt elit. Aenean mattis arcu ut consectetur mollis. Etiam quam eros, ullamcorper in imperdiet et, dictum non sapien. Morbi maximus sem nisl, vehicula venenatis lorem mattis quis.",
+    "publish": "2023-06-18T19:32:31Z",
+    "created": "2023-06-18T19:35:02.130Z",
+    "updated": "2023-06-19T18:47:06.980Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Что же выбрать, PHP или Python?",
+    "slug": "chto-zhe-vybrat-php-ili-python",
+    "author": 1,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl justo, scelerisque in finibus ac, auctor auctor ligula. Curabitur lacus eros, facilisis condimentum fermentum ac, blandit id turpis. Proin tristique ultrices urna, quis hendrerit lacus laoreet vel. Mauris sit amet ligula lectus. Aenean ultrices consequat risus et tristique. Sed faucibus eros sed metus tempus, id sagittis justo interdum. Nulla quis risus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque dictum, mauris non congue convallis, tortor justo ullamcorper tellus, vitae suscipit sapien est vitae elit.\r\n\r\nDuis quis mollis nibh. Integer tempor ultricies imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris blandit libero nec suscipit bibendum. Duis nec leo tellus. Donec ut metus ante. Quisque tincidunt mattis viverra. Mauris quis libero consequat, sodales mi id, eleifend nisl. Nulla ac congue turpis. Donec a sem auctor, ultricies sem sed, eleifend leo. Pellentesque nec iaculis nunc, nec ullamcorper justo.\r\n\r\nIn feugiat, urna auctor ultrices convallis, velit quam sagittis lacus, non porta arcu purus vel purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus eget sagittis augue, in pellentesque nisi. In hac habitasse platea dictumst. Fusce sit amet bibendum orci, vitae efficitur quam. Suspendisse potenti. Nullam convallis, sapien vestibulum sollicitudin ornare, justo metus posuere elit, sit amet egestas mauris ipsum nec elit. Nulla fringilla nibh vitae cursus iaculis. Ut ligula neque, mollis id arcu sed, viverra fringilla leo. Quisque semper convallis nulla rutrum lobortis. Sed rutrum augue lorem, vitae molestie orci euismod vel. Ut ut odio nibh. Aenean augue dui, volutpat ut eleifend at, placerat id erat. Nam sit amet ligula nibh. Donec faucibus sollicitudin ex id laoreet. Sed pellentesque mauris ipsum, vitae cursus ante imperdiet ut.\r\n\r\nNullam eu risus fringilla, interdum ligula ac, faucibus nibh. Donec suscipit, sem ut cursus volutpat, augue urna finibus nisi, vitae interdum libero arcu eu sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et risus ut turpis tincidunt hendrerit. Nam posuere ligula non ligula convallis, quis lobortis ligula mattis. Sed cursus lacus in vestibulum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate sapien vitae commodo pharetra. Aenean in massa id augue feugiat mattis. Donec ut consequat urna. Maecenas tempus egestas ante. Donec quis risus lectus. Donec et porttitor nisl. Nam ut blandit purus, ut tempor dui.",
+    "publish": "2023-06-18T19:53:36Z",
+    "created": "2023-06-18T19:55:45.785Z",
+    "updated": "2023-06-22T19:42:10.241Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Сложности освоения C++",
+    "slug": "slozhnosti-osvoeniya-c-plus-plus",
+    "author": 1,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam, nulla vitae mattis pellentesque, ex justo luctus tellus, ac ultrices lacus odio posuere augue. Nullam vitae ligula tortor. Fusce laoreet justo eu placerat lacinia. Maecenas et volutpat nisl, in dictum odio. Nam at magna nec justo cursus gravida eget ac tortor. Donec eros diam, imperdiet et malesuada nec, fringilla non tellus. Mauris vitae luctus ipsum, vel pretium quam. Maecenas efficitur volutpat vulputate. Phasellus suscipit erat vitae orci vestibulum, ultricies bibendum sapien scelerisque.\r\n\r\nNulla facilisi. Sed ut ultricies nibh, consectetur pharetra odio. Maecenas pretium purus purus, et porta elit aliquam at. Aliquam vulputate egestas felis vel imperdiet. Vestibulum commodo dolor a lorem accumsan consectetur. Aliquam feugiat nisi quis mauris imperdiet, vel aliquam orci auctor. Maecenas ac arcu quis erat dictum viverra.\r\n\r\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce dignissim diam quis nulla commodo luctus. Mauris at sodales ipsum, at consequat risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a fermentum lorem. Vivamus venenatis tincidunt egestas. Maecenas vitae augue sit amet justo efficitur ornare eu vel mi. Curabitur dapibus mollis diam et faucibus. Pellentesque eget pulvinar magna. Suspendisse consequat dolor libero, vitae aliquet nisl finibus ac. Phasellus varius turpis nec nulla consequat interdum. Vestibulum placerat massa est, eu scelerisque ipsum cursus vitae. Cras cursus condimentum diam.\r\n\r\nMaecenas porttitor ullamcorper imperdiet. Nam at elementum felis. Proin eget varius ante, et sodales lacus. Etiam augue leo, fringilla rhoncus laoreet nec, lobortis vel orci. Maecenas ut risus pulvinar ligula commodo tincidunt ut nec nunc. Cras egestas turpis non vulputate vestibulum. In a pretium justo. Duis bibendum sodales ante eget consequat. Fusce nunc velit, pharetra vel imperdiet vitae, molestie et ipsum. Nam non mi suscipit, cursus nulla non, dignissim lorem. Curabitur at viverra orci. Sed et tortor vel elit ultrices laoreet. Sed massa nulla, feugiat vel quam ac, congue varius risus.",
+    "publish": "2023-06-20T19:29:45Z",
+    "created": "2023-06-20T19:31:05.584Z",
+    "updated": "2023-06-20T19:31:05.584Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Java или Python выбор неочевиден",
+    "slug": "java-ili-python-vybor-neocheviden",
+    "author": 1,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam, nulla vitae mattis pellentesque, ex justo luctus tellus, ac ultrices lacus odio posuere augue. Nullam vitae ligula tortor. Fusce laoreet justo eu placerat lacinia. Maecenas et volutpat nisl, in dictum odio. Nam at magna nec justo cursus gravida eget ac tortor. Donec eros diam, imperdiet et malesuada nec, fringilla non tellus. Mauris vitae luctus ipsum, vel pretium quam. Maecenas efficitur volutpat vulputate. Phasellus suscipit erat vitae orci vestibulum, ultricies bibendum sapien scelerisque.\r\n\r\nNulla facilisi. Sed ut ultricies nibh, consectetur pharetra odio. Maecenas pretium purus purus, et porta elit aliquam at. Aliquam vulputate egestas felis vel imperdiet. Vestibulum commodo dolor a lorem accumsan consectetur. Aliquam feugiat nisi quis mauris imperdiet, vel aliquam orci auctor. Maecenas ac arcu quis erat dictum viverra.\r\n\r\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce dignissim diam quis nulla commodo luctus. Mauris at sodales ipsum, at consequat risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a fermentum lorem. Vivamus venenatis tincidunt egestas. Maecenas vitae augue sit amet justo efficitur ornare eu vel mi. Curabitur dapibus mollis diam et faucibus. Pellentesque eget pulvinar magna. Suspendisse consequat dolor libero, vitae aliquet nisl finibus ac. Phasellus varius turpis nec nulla consequat interdum. Vestibulum placerat massa est, eu scelerisque ipsum cursus vitae. Cras cursus condimentum diam.\r\n\r\nMaecenas porttitor ullamcorper imperdiet. Nam at elementum felis. Proin eget varius ante, et sodales lacus. Etiam augue leo, fringilla rhoncus laoreet nec, lobortis vel orci. Maecenas ut risus pulvinar ligula commodo tincidunt ut nec nunc. Cras egestas turpis non vulputate vestibulum. In a pretium justo. Duis bibendum sodales ante eget consequat. Fusce nunc velit, pharetra vel imperdiet vitae, molestie et ipsum. Nam non mi suscipit, cursus nulla non, dignissim lorem. Curabitur at viverra orci. Sed et tortor vel elit ultrices laoreet. Sed massa nulla, feugiat vel quam ac, congue varius risus.",
+    "publish": "2023-06-20T19:31:08Z",
+    "created": "2023-06-20T19:31:40.870Z",
+    "updated": "2023-06-22T15:17:54.856Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "А что про Markdown?",
+    "slug": "a-chto-pro-markdown",
+    "author": 1,
+    "body": "### Этот пост уже пишем с помощью Markdown\r\n\r\nЭто *немного* странно, что, используя странные символы, мы получаем очень интересный результат в тексте!\r\n\r\nНапример, посмотрите на простой список на языке M:\r\n\r\n* One \r\n* Two \r\n* Three\r\n\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2023-06-22T19:20:21Z",
+    "created": "2023-06-22T19:23:21.787Z",
+    "updated": "2023-06-22T19:23:21.787Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "Васян",
+    "email": "testy@yandex.ru",
+    "body": "Мдааа, надо ж было понаписать такого",
+    "created": "2023-06-21T17:09:48.679Z",
+    "updated": "2023-06-21T17:13:55.066Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "Саня",
+    "email": "testy@dex.ru",
+    "body": "Не знаю, что тут выбирать, учите плюсы!",
+    "created": "2023-06-21T17:12:37.289Z",
+    "updated": "2023-06-21T17:12:37.289Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]

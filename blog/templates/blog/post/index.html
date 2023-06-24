@@ -1,0 +1,40 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+
+
+{% block content %}
+{% if query %}
+<h1>Эти записи релевантны запросу {{query}}</h1>
+<h3>
+    {% with results.count as total_results %}
+    Найдено {{total_results}} результат{{total_results|pluralize}}
+    {% endwith %}
+</h3>
+{% for post in results %}
+<h4>
+    <a href="{{post.get_absolute_url}}">
+        {{post.title}}
+    </a>
+</h4>
+{{post.body|markdown|truncatewords_html:12}}
+{% empty %}
+<p>Нет релевантных записей по вашему запросу</p>
+{% endfor %}
+<p>
+    <a href="{% url 'blog:post_search' %}">Искать снова</a>
+</p>
+{% else %}
+<h1>Поиск по записям</h1>
+<form method="get">
+    {{form.as_p}}
+    <input type="submit" value="Поиск">
+</form>
+{% endif %}
+<div style="margin-top: 140px">
+    <img src="https://sky.pro/media/wp-content/uploads/2023/01/7.1.-kak-osvoit-programmirovanie-s-nulya.png" width="50%"
+         style="border-radius: 30px">
+</div>
+<div style="width: 430px; padding:10px;">
+    {% lorem %}
+</div>
+{% endblock %}
