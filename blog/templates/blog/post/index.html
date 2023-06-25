@@ -3,8 +3,9 @@
 
 
 {% block content %}
+<h1>Django News</h1>
 {% if query %}
-<h1>Эти записи релевантны запросу {{query}}</h1>
+<h3>Эти записи релевантны запросу {{query}}</h3>
 <h3>
     {% with results.count as total_results %}
     Найдено {{total_results}} результат{{total_results|pluralize}}
@@ -24,7 +25,7 @@
     <a href="{% url 'blog:post_search' %}">Искать снова</a>
 </p>
 {% else %}
-<h1>Поиск по записям</h1>
+<h3>Поиск по записям</h3>
 <form method="get">
     {{form.as_p}}
     <input type="submit" value="Поиск">
